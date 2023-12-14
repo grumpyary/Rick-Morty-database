@@ -41,3 +41,32 @@ header {
     align-items: center;
     flex-direction: column;
 }
+
+.text {
+    font-family: Outfit;
+    font-weight: 700;
+    display: flex;
+    position: absolute;
+    right: 35.5rem;
+    
+}
+
+.todos {
+    color: #CEEE1D;
+    font-family: Outfit;
+    font-size: 2.36806rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 2rem;
+}
+
+.curtidos {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 2.36806rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 2rem;
+}
