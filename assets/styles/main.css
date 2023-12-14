@@ -21,8 +21,7 @@ header {
     display: flex;
     position: relative;
     justify-content: center;
-
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .portal {
@@ -47,8 +46,7 @@ header {
     font-weight: 700;
     display: flex;
     position: absolute;
-    right: 35.5rem;
-    
+    right: 35rem;
 }
 
 .todos {
@@ -69,4 +67,136 @@ header {
     font-weight: 700;
     line-height: normal;
     padding-left: 2rem;
+}
+
+.cards {
+    display: flex;
+    padding-top: 6rem;
+    padding-left: 6.15rem;
+}
+
+
+.presentation-card {
+    display: flex;
+    width: 33.25rem;
+    height: 16.125rem;
+    flex-shrink: 0;
+    border-radius: 1.8125rem;
+    border: 2px solid #535359;
+    background: rgba(30, 31, 40, 0.56);
+}
+
+.character-picture {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 14.375rem;
+    height: 14.375rem;
+    flex-shrink: 0;
+    border-radius: 1.8125rem;
+}
+
+.character-name {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 2.36806rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.species {
+    color: #6F707D;
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    position: relative;
+    left: -14rem;
+    top: 4rem;
+}
+
+.line {
+    position: relative;
+    top: 4.5rem;
+    left: -16.4rem;
+}
+
+.info {
+    display: flex;
+    position: relative;
+    top: 5rem;
+    left: -29rem;
+}
+
+.info-list {
+    list-style: none;
+    white-space: nowrap;
+}
+
+.last-location {
+    width: 10rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+    color: #F0F1FF;
+    font-family: Outfit;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0.25rem;
+}
+
+.current-location {
+    width: 5.5rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+    color: #6F707D;
+    font-family: Outfit;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.first-seen {
+    width: 10rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+    color: #F0F1FF;
+    font-family: Outfit;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0.25rem;
+}
+
+.close {
+    width: 5.5rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+    color: #6F707D;
+    font-family: Outfit;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.aparitions {
+    color: #6F707D;
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
