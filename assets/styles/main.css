@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    font-weight: 900;
+}
+
+body {
+    background-color: #15151D;
+}
+
+header {
+    display: flex;
+    padding: auto;
+    width: 4.9375rem;
+    height: 4.56969rem;
+    flex-shrink: 0;
+    padding-left: 6.12rem;
+    padding-top: 2rem;
+}
+
+.pictures {
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+    margin-top: 5rem;
+}
+
+.portal {
+    position: absolute;
+    left: -10px;
+}
+
+.duoleft {
+    position: absolute;
+    right: 0;
+}
+
+.container-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
